@@ -22,3 +22,10 @@ check home from list of above
 
 if num people sign up < max  —> output everyone is accepted (manual check pls)
 check length of list — if not long enough loop the whole thing
+
+
+### Updating data frame
+- make copy of og df
+- when choosing people, delete from copy df
+- if person isn't chosen, keep in copy df
+- copy df becomes waitlist
